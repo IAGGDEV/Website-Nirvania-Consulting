@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #0a0a2e;
+    background: #050014;
     color: #ffffff;
     overflow-x: hidden;
 }
@@ -24,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #0a0a2e 0%, #1a1a3a 50%, #2a2a4a 100%);
+    background: linear-gradient(135deg, #050014 0%, #1a0a2e 30%, #2d1b69 60%, #4c1d95 100%);
     overflow: hidden;
 }
 
@@ -42,11 +42,11 @@ body {
     width: 100%;
     height: 100%;
     background-image: 
-        radial-gradient(2px 2px at 20px 30px, #4a9eff, transparent),
-        radial-gradient(2px 2px at 40px 70px, #7c3aed, transparent),
+        radial-gradient(2px 2px at 20px 30px, #6366f1, transparent),
+        radial-gradient(2px 2px at 40px 70px, #a855f7, transparent),
         radial-gradient(1px 1px at 90px 40px, #ffffff, transparent),
-        radial-gradient(1px 1px at 130px 80px, #4a9eff, transparent),
-        radial-gradient(2px 2px at 160px 30px, #7c3aed, transparent);
+        radial-gradient(1px 1px at 130px 80px, #6366f1, transparent),
+        radial-gradient(2px 2px at 160px 30px, #a855f7, transparent);
     background-repeat: repeat;
     background-size: 200px 100px;
     animation: twinkle 4s ease-in-out infinite alternate;
@@ -69,7 +69,7 @@ body {
     position: absolute;
     width: 4px;
     height: 4px;
-    background: linear-gradient(45deg, #4a9eff, #7c3aed);
+    background: linear-gradient(45deg, #6366f1, #a855f7);
     border-radius: 50%;
     animation: float 6s ease-in-out infinite;
 }
@@ -111,19 +111,19 @@ body {
 .nirvania-logo {
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0 0 20px rgba(74, 158, 255, 0.3));
+    filter: drop-shadow(0 0 20px rgba(99, 102, 241, 0.3));
     animation: logoGlow 3s ease-in-out infinite alternate;
 }
 
 @keyframes logoGlow {
-    0% { filter: drop-shadow(0 0 20px rgba(74, 158, 255, 0.3)); }
-    100% { filter: drop-shadow(0 0 30px rgba(124, 58, 237, 0.5)); }
+    0% { filter: drop-shadow(0 0 20px rgba(99, 102, 241, 0.3)); }
+    100% { filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.5)); }
 }
 
 .company-name {
     font-size: 2rem;
     font-weight: 300;
-    background: linear-gradient(135deg, #4a9eff, #7c3aed);
+    background: linear-gradient(135deg, #6366f1, #a855f7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -154,7 +154,7 @@ body {
     align-items: center;
     gap: 12px;
     padding: 16px 32px;
-    background: linear-gradient(135deg, #4a9eff, #7c3aed);
+    background: linear-gradient(135deg, #6366f1, #a855f7);
     border: none;
     border-radius: 50px;
     color: white;
@@ -163,23 +163,23 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
-    box-shadow: 0 8px 32px rgba(74, 158, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);
 }
 
 .cta-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(74, 158, 255, 0.4);
+    box-shadow: 0 12px 40px rgba(99, 102, 241, 0.4);
 }
 
 .cta-button.secondary {
-    background: rgba(74, 158, 255, 0.1);
-    border: 2px solid rgba(74, 158, 255, 0.3);
+    background: rgba(99, 102, 241, 0.1);
+    border: 2px solid rgba(99, 102, 241, 0.3);
     box-shadow: none;
 }
 
 .cta-button.secondary:hover {
-    background: rgba(74, 158, 255, 0.2);
-    border-color: rgba(74, 158, 255, 0.5);
+    background: rgba(99, 102, 241, 0.2);
+    border-color: rgba(99, 102, 241, 0.5);
 }
 
 .arrow-icon {
@@ -219,7 +219,7 @@ body {
 }
 
 .close-modal:hover {
-    color: #4a9eff;
+    color: #6366f1;
 }
 
 .video-container {
@@ -242,7 +242,7 @@ body {
 /* Features Grid */
 .features-grid {
     padding: 120px 0;
-    background: linear-gradient(180deg, #1a1a3a 0%, #0a0a2e 100%);
+    background: linear-gradient(180deg, #1a0a2e 0%, #050014 100%);
 }
 
 .grid {
@@ -253,7 +253,7 @@ body {
 
 .feature-card {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(74, 158, 255, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.1);
     border-radius: 16px;
     padding: 40px 32px;
     text-align: center;
@@ -263,15 +263,15 @@ body {
 
 .feature-card:hover {
     transform: translateY(-8px);
-    border-color: rgba(74, 158, 255, 0.3);
-    box-shadow: 0 20px 40px rgba(74, 158, 255, 0.1);
+    border-color: rgba(99, 102, 241, 0.3);
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.1);
 }
 
 .feature-icon {
     width: 60px;
     height: 60px;
     margin: 0 auto 24px;
-    color: #4a9eff;
+    color: #6366f1;
 }
 
 .feature-icon svg {
@@ -295,7 +295,7 @@ body {
 /* Services Section */
 .services-section {
     padding: 120px 0;
-    background: #0a0a2e;
+    background: #050014;
 }
 
 .services-header {
@@ -308,10 +308,10 @@ body {
     align-items: center;
     gap: 8px;
     padding: 8px 16px;
-    background: rgba(124, 58, 237, 0.1);
-    border: 1px solid rgba(124, 58, 237, 0.3);
+    background: rgba(168, 85, 247, 0.1);
+    border: 1px solid rgba(168, 85, 247, 0.3);
     border-radius: 50px;
-    color: #7c3aed;
+    color: #a855f7;
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 24px;
@@ -348,7 +348,7 @@ body {
 
 .service-main-card {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(74, 158, 255, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.1);
     border-radius: 20px;
     padding: 40px;
     backdrop-filter: blur(10px);
@@ -356,7 +356,7 @@ body {
 }
 
 .service-main-card:hover {
-    border-color: rgba(74, 158, 255, 0.3);
+    border-color: rgba(99, 102, 241, 0.3);
     transform: translateY(-4px);
 }
 
@@ -370,7 +370,7 @@ body {
 .service-icon {
     width: 48px;
     height: 48px;
-    color: #4a9eff;
+    color: #6366f1;
 }
 
 .service-icon svg {
@@ -426,14 +426,14 @@ body {
 .feature-item svg {
     width: 20px;
     height: 20px;
-    color: #4a9eff;
+    color: #6366f1;
 }
 
 .ai-agent-demo {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 12px;
     padding: 24px;
-    border: 1px solid rgba(74, 158, 255, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.1);
 }
 
 .agent-item {
@@ -451,7 +451,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #4a9eff, #7c3aed);
+    background: linear-gradient(135deg, #6366f1, #a855f7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -486,7 +486,7 @@ body {
 /* Additional Services */
 .additional-services {
     padding: 120px 0;
-    background: linear-gradient(180deg, #0a0a2e 0%, #1a1a3a 100%);
+    background: linear-gradient(180deg, #050014 0%, #1a0a2e 100%);
 }
 
 .services-nav {
@@ -502,7 +502,7 @@ body {
     gap: 12px;
     padding: 16px 24px;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(74, 158, 255, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.1);
     border-radius: 50px;
     color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
@@ -510,9 +510,9 @@ body {
 }
 
 .nav-item.active {
-    background: rgba(74, 158, 255, 0.1);
-    border-color: rgba(74, 158, 255, 0.3);
-    color: #4a9eff;
+    background: rgba(99, 102, 241, 0.1);
+    border-color: rgba(99, 102, 241, 0.3);
+    color: #6366f1;
 }
 
 .nav-item svg {
@@ -529,7 +529,7 @@ body {
 
 .service-card {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(74, 158, 255, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.1);
     border-radius: 16px;
     padding: 40px 32px;
     transition: all 0.3s ease;
@@ -538,13 +538,13 @@ body {
 
 .service-card:hover {
     transform: translateY(-4px);
-    border-color: rgba(74, 158, 255, 0.3);
+    border-color: rgba(99, 102, 241, 0.3);
 }
 
 .service-card .service-icon {
     width: 48px;
     height: 48px;
-    color: #4a9eff;
+    color: #6366f1;
     margin-bottom: 24px;
 }
 
@@ -568,8 +568,8 @@ body {
 /* Footer Brand */
 .footer-brand {
     padding: 80px 0;
-    background: #0a0a2e;
-    border-top: 1px solid rgba(74, 158, 255, 0.1);
+    background: #050014;
+    border-top: 1px solid rgba(99, 102, 241, 0.1);
 }
 
 .footer-brand .container {
@@ -590,7 +590,7 @@ body {
     margin-bottom: 16px;
     font-size: 1.5rem;
     font-weight: 600;
-    background: linear-gradient(135deg, #4a9eff, #7c3aed);
+    background: linear-gradient(135deg, #6366f1, #a855f7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

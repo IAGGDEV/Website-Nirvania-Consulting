@@ -103,7 +103,7 @@ function createFloatingParticle() {
         top: ${y}px;
         width: ${size}px;
         height: ${size}px;
-        background: linear-gradient(45deg, #4a9eff, #7c3aed);
+        background: linear-gradient(45deg, #6366f1, #a855f7);
         border-radius: 50%;
         pointer-events: none;
         z-index: 1;
@@ -150,11 +150,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     logoElements.forEach(logo => {
         logo.addEventListener('mouseenter', function() {
-            this.style.filter = 'drop-shadow(0 0 40px rgba(74, 158, 255, 0.6))';
+            this.style.filter = 'drop-shadow(0 0 40px rgba(99, 102, 241, 0.6))';
         });
         
         logo.addEventListener('mouseleave', function() {
-            this.style.filter = 'drop-shadow(0 0 20px rgba(74, 158, 255, 0.3))';
+            this.style.filter = 'drop-shadow(0 0 20px rgba(99, 102, 241, 0.3))';
         });
     });
 });
@@ -217,7 +217,7 @@ function drawTrail() {
                 top: ${point.y}px;
                 width: ${index * 2}px;
                 height: ${index * 2}px;
-                background: radial-gradient(circle, rgba(74, 158, 255, ${point.life / 20}), transparent);
+                background: radial-gradient(circle, rgba(99, 102, 241, ${point.life / 20}), transparent);
                 border-radius: 50%;
                 pointer-events: none;
                 z-index: 9999;
